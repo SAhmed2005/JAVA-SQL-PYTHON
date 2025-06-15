@@ -1,0 +1,5 @@
+Subledger - Any type of transaction  such as payables and receivables are sub ledgers. They are subject to accounting.
+
+General Ledger (GL) - Once theses subledgers are accounted, they are posted in General Ledger and that's where you find report
+
+Solve the EPM Problem and SMART VIEW
