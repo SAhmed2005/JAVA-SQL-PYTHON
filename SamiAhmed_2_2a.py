@@ -1,0 +1,5 @@
+print("Driving in an endless road."[5])
+print("[1, 4, 8]"[7])
+print("We are all in this together."[7:13])
+print("Going live in: 3, 2 , 1"[6:])
+print("A snake, two snakes, a code: Python."[:-7])

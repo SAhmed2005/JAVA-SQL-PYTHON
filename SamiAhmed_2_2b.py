@@ -1,0 +1,5 @@
+string = input("Word to convert: ")
+letters = int(input("How many letters at the end of the word should be converted? "))
+string_1 = (string[0:len(string) - letters])
+string_2 = (string[len(string) - letters: ])
+print(string_1 + string_2.upper())

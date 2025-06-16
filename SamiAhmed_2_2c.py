@@ -1,0 +1,6 @@
+sentence = input("Sentence: ")
+word = input("Word to look for in sentence: ")
+lower_sentence = sentence.lower()
+lower_word = word.lower()
+occurence = lower_sentence.count(lower_word)
+print(occurence)
