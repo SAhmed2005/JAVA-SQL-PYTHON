@@ -1,0 +1,7 @@
+ACME STORE            February 28, 2024
+HARDWARE DEPARTMENT
+Item # 999999
+Price              $ 31.50
+Discount (12%)      $ 4.73
+Tax (6.625%)        $ 1.77
+Total              $ 28.55

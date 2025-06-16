@@ -1,0 +1,100 @@
+Alabama                  
+10                1877.12
+Alaska                   
+1                 4081.57
+Arizona                  
+6                  153.38
+Arkansas                 
+8                 2911.16
+California               
+3                 4806.35
+Colorado                 
+8                  637.91
+Connecticut              
+2                 2667.47
+Delaware                 
+3                 2188.76
+Florida                  
+5                  730.14
+Georgia                  
+3                 3716.21
+Hawaii                   
+7                 1621.48
+Idaho                    
+6                 1777.97
+Illinois                 
+5                 3994.49
+Indiana                  
+2                 4775.95
+Iowa                     
+5                 3047.13
+Kansas                   
+4                 1062.84
+Kentucky                 
+4                 1379.57
+Louisiana                
+9                 1957.19
+Maine                    
+3                 4312.17
+Maryland                 
+4                 3147.49
+Massachusetts            
+6                 1603.96
+Michigan                 
+3                 4611.20
+Minnesota                
+5                 4235.15
+Mississippi              
+7                 2226.17
+Missouri                 
+1                  547.01
+Montana                  
+7                 3710.30
+Nebraska                 
+10                 568.67
+Nevada                   
+7                 2389.25
+New Hampshire            
+6                  802.60
+New Jersey               
+6                 4562.63
+New Mexico               
+1                 4089.44
+New York                 
+1                 4915.82
+North Carolina           
+5                  427.46
+North Dakota             
+6                 4507.74
+Ohio                     
+9                 4783.26
+Oklahoma                 
+3                 2353.71
+Oregon                   
+1                 1997.51
+Pennsylvania             
+7                 4518.75
+Rhode Island             
+2                 1863.43
+South Carolina           
+6                 3937.67
+South Dakota             
+9                 4335.30
+Tennessee                
+4                 4886.83
+Texas                    
+3                  610.65
+Utah                     
+2                 3146.59
+Vermont                  
+5                  522.01
+Virginia                 
+8                 1413.76
+Washington               
+10                 272.87
+West Virginia            
+5                 4450.45
+Wisconsin                
+7                 2057.19
+Wyoming                  
+7                 4788.45
