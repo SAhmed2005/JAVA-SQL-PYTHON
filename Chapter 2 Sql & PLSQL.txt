@@ -1,0 +1,127 @@
+SQL PRACTICE 2
+1.	False; salary_as_sal
+2.	True
+3.	Comma is missing in first row, (sal*12), --ANNUAL SALARY, Idk the last one
+Task 2
+
+5b) SELECT last_name, job_id, employee_id, hire_date STARTDATE 
+       FROM employees;
+
+6) SELECT DISTINCT job_id
+    FROM employees;
+
+7) SELECT last_name “Employee”, job_id “Job”, employee_id “Emp #”, hire_date “Hire Date” 
+       FROM employees;
+
+8) SELECT last_name || “, “ || job_id “Employee and Title”
+    FROM employees;
+
+9) SELECT employee_id || “, “ || first_name || “, “ || last_name || “, “ || email || “, “ || phone_number || “, “ || job_id || “, “ || employee_id || “, “ || hire_date || “, “ || commission_pct THE_OUTPUT
+FROM employees;
+
+
+
+
+
+
+PL/SQL PRACTICE 2
+
+1)	A and d execute properly because a has all the necessary code and d has proper usage of everything that is necessary. B is missing the “beginning”. C is missing executable statements
+2)	SET SERVEROUTPUT ON
+BEGIN
+Dbms_output.put_line(‘Hello World’);
+END;
+
+
+PL/SQL CHAPTER 3
+
+1.	A, b, h are valid
+2.	
+3.	a
+4.	V_today DATE:= sysdate;
+V_tomorrow v_today%type;
+Begin
+V_tomorrow:= v_today + 1;
+Dbms_output.put_line(‘Hello World’);
+Dbms_output.put_line(‘TODAY IS : ‘ || v_today); -- how to use ||
+Dbms_output.put_line(‘TOMORROW IS : ‘ || v_tomorrow);
+End;
+
+5.	VARIABLE b_basic_percent NUMBER;
+VARIABLE b_pf_percent NUMBER;
+BEGIN
+:b_basic_percent := 45
+:b_pf_percent := 12
+END;
+/ 
+PRINT
+
+PL/SQL CHAPTER 4
+
+1. a) 2
+   b) Western Europe
+   c) 601
+   d) Product 10012 is in stock
+   e) error
+
+2. a) 201
+   b) Unisports
+   c) GOOD
+   d) Womansport
+   e) error
+   f) EXCELLENT
+
+3. 
+SET SERVEROUTPUT ON
+--VARIABLE star_1 VARCHAR2;
+--VARIABLE star_2 VARCHAR2;
+
+DECLARE
+v_fname VARCHAR2(15);
+v_emp_sal NUMBER(10);
+hello_w1 VARCHAR2;
+hello_w2 VARCHAR2;
+
+BEGIN
+/*
+:star_1:= 'hello';
+:star_2:= 'world';
+*/
+SELECT first_name, salary INTO v_fname, v_emp_sal
+FROM employees WHERE employee_id=110;
+
+CHAPTER 5 PL/SQL
+
+1.
+a) DECLARE
+   v_max_deptno NUMBER; 
+b) BEGIN
+   SELECT MAX(department_id) INTO v_max_deptno 
+   FROM departments;
+c) DBMS_output.put_line('The maximum department_id is : ' || v_max_deptno);
+   END;
+
+2.
+a) DECLARE
+   v_max_deptno NUMBER;
+   v_dept_name departments.department_name%TYPE:= 'Education';
+   v_dept_id NUMBER
+b) BEGIN
+   SELECT MAX(department_id) INTO v_max_deptno 
+   FROM departments;
+   v_dept_id:= 10 + v_max_deptno;
+   INSERT INTO dapartments (department_name, department_id, location_id)
+   VALUES (v_dept_name, v_dept_id, NULL);  
+c) DBMS_output.put_line('The maximum department_id is : ' || v_max_deptno);
+   DBMS_output.put_line('SQL%ROWCOUNT gives ' || SQL%ROWCOUNT);
+   END;
+/
+   SELECT (department_name, department_id, location_id) FROM departments;
+
+--CORRECTION
+
+SELECT * FROM departments WHERE department_id= 280;
+
+
+
+

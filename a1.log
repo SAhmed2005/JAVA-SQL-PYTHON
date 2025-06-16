@@ -1,0 +1,30 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Wed May 28 10:47:39 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   a1.ctl
+Data File:      a1.ctl
+  Bad File:     a1.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SYS.EMP, loaded from every logical record.
+Insert option in effect for this table: INSERT
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPNO                               FIRST     *   ,       CHARACTER            
+EMPNAME                              NEXT     *   ,       CHARACTER            
+SALARY                               NEXT     *   ,       CHARACTER            
+
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table SYS.EMP

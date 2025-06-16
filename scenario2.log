@@ -1,0 +1,32 @@
+
+SQL*Loader: Release 21.0.0.0.0 - Production on Wed May 28 11:54:55 2025
+Version 21.3.0.0.0
+
+Copyright (c) 1982, 2021, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   scenario2.ctl
+Data File:      d:\Sami_Oracle\data2.txt
+  Bad File:     data2.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 0
+Errors allowed: 50
+Bind array:     250 rows, maximum of 1048576 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SYS.EMP, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPNO                               FIRST     *   ,       CHARACTER            
+EMPNAME                              NEXT     *   ,       CHARACTER            
+SALARY                               NEXT     *   ,       CHARACTER            
+
+SQL*Loader-926: OCI error while executing delete/truncate (due to REPLACE/TRUNCATE keyword) for table SYS.EMP
+ORA-01031: insufficient privileges
+
